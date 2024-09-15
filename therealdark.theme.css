@@ -1,5 +1,5 @@
 /**
- * @name the real dark
+ * @name The real dark
  * @version 0.9.9
  * @author TheCommieAxolotl#0001
  * @authorId 538487970408300544
@@ -11,6 +11,8 @@
  * @BDEditor MaterialDesign
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
@@ -18,9 +20,9 @@
 
 :root {
   --font-primary: Roboto;
-  --font-code: Source Code Pro;
+  --font-code: Roboto;
   --floating-background-opacity: 100;
-  --floating-background-blur: 39px;
+  --floating-background-blur: 0px;
   --version: "0.9.9";
   --version0_9_9: none;
   --01dpShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
@@ -80,15 +82,15 @@
 }
 
 .theme-dark {
-  --skin-accent-h: 247;
+  --skin-accent-h: 360;
   --skin-accent-s: 0%;
-  --skin-accent-l: 17;
+  --skin-accent-l: 0;
   --skin-accent-a: 100;
-  --skin-background-h: 360;
+  --skin-background-h: 0;
   --skin-background-s: 0%;
-  --skin-background-l: 61;
-  --skin-background-a: 84;
-  --switch-checked-background: 101,22%,23%;
+  --skin-background-l: 100;
+  --skin-background-a: 100;
+  --switch-checked-background: 101,100%,100%;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #74796e;
   --skin-name: "Default";
@@ -129,11 +131,11 @@
 }
 
 .theme-light {
-  --skin-accent-h: 247;
+  --skin-accent-h: 360;
   --skin-accent-s: 0%;
-  --skin-accent-l: 17;
+  --skin-accent-l: 0;
   --skin-accent-a: 100;
-  --switch-checked-background: 101,22%,23%;
+  --switch-checked-background: 101,100%,100%;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #74796e;
   --skin-name: "Default Light";
