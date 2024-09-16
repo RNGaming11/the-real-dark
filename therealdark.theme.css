@@ -1,14 +1,14 @@
 /**
  * @name The real dark
- * @version 0.9.9
- * @author TheCommieAxolotl#0001
- * @authorId 538487970408300544
- * @description A clean theme inspired by Google's Material Design Guidelines.
- * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/MaterialDesign
- * @website https://thecommieaxolotl.github.io/BetterDiscord-Stuff/
- * @invite g2KnUw7u7N
- * @donate https://github.com/sponsors/TheCommieAxolotl/
- * @BDEditor MaterialDesign
+ * @version 1.0.0
+ * @author RN Gaming
+ * @authorId 0
+ * @description A nice dark theme
+ * @source 
+ * @website 
+ * @invite 
+ * @donate 
+ * @BDEditor 
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -23,8 +23,8 @@
   --font-code: Roboto;
   --floating-background-opacity: 100;
   --floating-background-blur: 0px;
-  --version: "0.9.9";
-  --version0_9_9: none;
+  --version: "1.0.0";
+  --version1_0_0: none;
   --01dpShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   --02dpShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   --03dpShadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
@@ -90,7 +90,7 @@
   --skin-background-s: 0%;
   --skin-background-l: 100;
   --skin-background-a: 100;
-  --switch-checked-background: 101,100%,100%;
+  --switch-checked-background: 101,100,100;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #74796e;
   --skin-name: "Default";
@@ -135,7 +135,7 @@
   --skin-accent-s: 0%;
   --skin-accent-l: 0;
   --skin-accent-a: 100;
-  --switch-checked-background: 101,100%,100%;
+  --switch-checked-background: 101,100,100;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #74796e;
   --skin-name: "Default Light";
