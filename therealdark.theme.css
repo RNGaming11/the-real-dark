@@ -1,145 +1,25 @@
 /**
- * @name The real dark
- * @version 1.0.0
- * @author RN Gaming
- * @authorId 0
- * @description A nice dark theme
- * @source 
- * @website 
- * @invite 
- * @donate 
- * @BDEditor 
+ * @name The Real Dark
+ * @author Elisniper
+ * @version 1.2.0
+ * @description Discord Glass Wave Theme
+ * @source https://github.com/Elisniper/Glass-Wave
+ * @website https://xbased.net
+ * @BDEditor Glass Wave
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-@import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
-@import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://elisniper.github.io/Glass-Wave/release/import.css');
 
 :root {
-  --font-primary: Roboto;
-  --font-code: Roboto;
-  --floating-background-opacity: 100;
-  --floating-background-blur: 0px;
-  --version: "1.0.0";
-  --version1_0_0: none;
-  --01dpShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  --02dpShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  --03dpShadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
-  --04dpShadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-  --06dpShadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-  --08dpShadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
-  --12dpShadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12);
-  --16dpShadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2), 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12);
-  --24dpShadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-  --brand-experiment: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.75% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-100: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.98% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-130: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.961% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-160: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.942% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-200: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.923% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-230: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.903% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-260: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.884% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-300: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.865% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-330: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.846% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-360: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.827% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-400: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.80% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-430: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.78% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-460: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.769% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-500: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-530: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.69% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-560: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.63% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-600: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.57% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-630: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.51% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-660: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.45% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-700: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.39% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-730: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.33% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-760: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.27% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-800: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.21% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-830: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.15% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-860: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.9% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-900: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.3% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
-  --brand-experiment-05a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0005 * var(--skin-accent-a, 100)));
-  --brand-experiment-10a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.001 * var(--skin-accent-a, 100)));
-  --brand-experiment-15a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0015 * var(--skin-accent-a, 100)));
-  --brand-experiment-20a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.002 * var(--skin-accent-a, 100)));
-  --brand-experiment-25a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0025 * var(--skin-accent-a, 100)));
-  --brand-experiment-30a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.003 * var(--skin-accent-a, 100)));
-  --brand-experiment-35a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0035 * var(--skin-accent-a, 100)));
-  --brand-experiment-40a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.004 * var(--skin-accent-a, 100)));
-  --brand-experiment-45a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0045 * var(--skin-accent-a, 100)));
-  --brand-experiment-50a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.005 * var(--skin-accent-a, 100)));
-  --brand-experiment-55a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0055 * var(--skin-accent-a, 100)));
-  --brand-experiment-60a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.006 * var(--skin-accent-a, 100)));
-  --brand-experiment-65a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0065 * var(--skin-accent-a, 100)));
-  --brand-experiment-70a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.007 * var(--skin-accent-a, 100)));
-  --brand-experiment-75a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0075 * var(--skin-accent-a, 100)));
-  --brand-experiment-80a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.008 * var(--skin-accent-a, 100)));
-  --brand-experiment-85a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0085 * var(--skin-accent-a, 100)));
-  --brand-experiment-90a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.009 * var(--skin-accent-a, 100)));
-  --brand-experiment-95a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(00.75% * var(--skin-accent-l, 100)), calc(0.0095 * var(--skin-accent-a, 100)));
-}
-
-.theme-dark {
-  --skin-accent-h: 360;
-  --skin-accent-s: 0%;
-  --skin-accent-l: 0;
-  --skin-accent-a: 100;
-  --skin-background-h: 0;
-  --skin-background-s: 0%;
-  --skin-background-l: 100;
-  --skin-background-a: 100;
-  --switch-checked-background: 101,100,100;
-  --switch-unchecked-background: #74796e33;
-  --switch-unchecked-color: #74796e;
-  --skin-name: "Default";
-  --skin-author: "TheCommieAxolotl";
-  --00dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.07% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --01dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.11% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --02dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.13% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --03dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.14% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --04dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.15% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --06dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.17% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --08dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.18% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --12dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.19% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --16dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.2% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --24dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.22% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --26dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.27% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
-  --background-primary: var(--02dp);
-  --background-secondary: var(--01dp);
-  --background-mobile-secondary: var(--01dp);
-  --background-accent: var(--12dp);
-  --background-tertiary: var(--00dp);
-  --background-secondary-alt: var(--06dp);
-  --channeltextarea-background: var(--24dp);
-  --background-floating: var(--24dp);
-  --background-modifier-selected: var(--06dp);
-  --background-modifier-hover: var(--02dp);
-  --background-modifier-active: var(--04dp);
-  --background-mentioned: transparent;
-  --background-mentioned-hover: #e7c21f04;
-  --info-warning-foreground: hsl(54, calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), 75%);
-  --scrollbar-thin-thumb: var(--12dp);
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: var(--12dp);
-  --scrollbar-auto-track: var(--04dp);
-  --input-background: var(--08dp);
-  --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
-  --switch-unchecked-background: #74796e33;
-  --switch-unchecked-color: #74796e;
-}
-
-.theme-light {
-  --skin-accent-h: 360;
-  --skin-accent-s: 0%;
-  --skin-accent-l: 0;
-  --skin-accent-a: 100;
-  --switch-checked-background: 101,100,100;
-  --switch-unchecked-background: #74796e33;
-  --switch-unchecked-color: #74796e;
-  --skin-name: "Default Light";
-  --skin-author: "TheCommieAxolotl";
+  --var-background: url('data:image/png;base64,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');
+  --var-background-size: cover;
+  --var-background-position: center;
+  --var-accent: #000000;
+  --var-popout-color: rgba(10, 21, 21, 1);
+  --var-chat-bubbles-background: #000000;
+  --var-chat-mentioned: #000000;
+  --var-font: Poppins;
 }
 
 /* Any custom CSS below here */
